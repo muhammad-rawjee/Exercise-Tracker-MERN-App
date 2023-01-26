@@ -1,0 +1,81 @@
+body {
+  background-color: black;
+  color: green;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: auto;
+  padding: auto;
+}
+
+h1 {
+  font-size: calc(10px + 2vmin);
+}
+
+
+.App {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: lightblue;
+}
+
+.App-nav a {
+  padding: 0px 20px 5px 20px;
+  background-color:rgb(114, 170, 180);
+  text-decoration:none;
+  color:blanchedalmond;
+  line-height:1;
+  vertical-align:middle;
+  border-right: 2px solid blanchedalmond;
+  font-size:1.3em;
+  font-weight:bold;
+  border-radius:3px;
+}
+
+.App-nav a:hover {
+  color:rgb(139, 186, 194);
+  background-color:rgb(247, 218, 174);
+}
+
+.App-link {
+  color: #dafb61;
+}
+
+
+tr td {
+  border: 1px solid whitesmoke;
+  padding: 8px;
+  color: lightblue;
+}
+
+tr:nth-child(even){background-color: grey;}
+
+tr:hover {background-color: green;}
+
+tr th{
+  border: 1px solid pink;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: navy;
+  color: lightblue;
+}
+
+input{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+select{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+button {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
